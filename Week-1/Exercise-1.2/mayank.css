@@ -1,0 +1,106 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(197, 197, 197, 0.412);
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidebar a {
+  padding: 60px 30px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #353535;
+  display: block;
+}
+.sidebar a:hover {
+  color: #b51717;
+}
+.section {
+  margin-left: 40px;
+  padding: 20px;
+  background-color: #454545;
+}
+.section img {
+  height: 200px;
+}
+.header-text {
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  float: right;
+  margin-right: 850px;
+}
+.header-text pre {
+  margin-top: 0px;
+}
+.music-logo {
+  padding: 50px;
+}
+.music-logo a:hover {
+  color: red;
+}
+.music-logo a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.table {
+  float: left;
+  margin-left: 100px;
+}
+
+.table td,
+th {
+  text-align: left;
+  padding: 20px;
+  width: 550px;
+  font-family: lato;
+}
+.table a {
+  text-decoration: none;
+  font-weight: bold;
+}
+#cetty {
+  background-color: #dddddd;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #43689b;
+  
+}
+.bottom img{
+  padding: 15px;
+  height: 100px;
+}
+.bottom-text {
+  float: right;
+  margin-right: 800px;
+}
+.bottom-text a {
+  color: white;
+  float: left;
+  text-align: right;
+  margin-left: 5px;
+  justify-content:center;
+}
+pre {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.bottom a{
+ width: 160px;
+}
