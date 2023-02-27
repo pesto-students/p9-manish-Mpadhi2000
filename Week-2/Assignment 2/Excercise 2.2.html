@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 2.1</title>
+</head>
+<style>
+    .wrapper {
+        position: relative;
+        top: 400px;
+      }
+      .common {
+        width: 100px;
+        height: 100px;
+        transition-property: transform;
+        transition-duration: 1s;
+        position: relative;
+      }
+      .red{
+        background-color: red;
+        left: 600px;
+        transform: rotate(0deg);
+        transform-origin: top left;
+      }
+      .wrapper:hover .red {
+        transform: rotate(90deg);
+      }
+      .yellow {
+        background-color: yellow;
+        left: 700px;
+        top: -100px;
+        transform: rotate(0deg);
+        transform-origin: top right;
+      }
+      .wrapper:hover .yellow {
+        transform: rotate(-90deg);
+      }
+      .blue {
+        background-color: blue;
+        left:600px;
+        top: -100px;
+        transform: rotate(0deg);
+        transform-origin: bottom left;
+      }
+      .wrapper:hover .blue {
+        transform: rotate(-90deg);
+      }
+      .green {
+        background-color: green;
+        top:-200px;
+        left: 700px;
+        transform: rotate(0deg);
+        transform-origin: bottom right;
+      }
+      .wrapper:hover .green{
+        transform: rotate(90deg);
+      }
+      .hi {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 70px;
+        left: 600px;
+        z-index: -1;
+        text-align: center;
+        
+        align-items: center;
+        justify-content: center;
+      }
+     
+
+</style>
+<body>
+<div class="wrapper">
+    <div class="red common"></div>
+    <div class="yellow common"></div>
+    <div class="blue common"></div>  
+    <div class="green common"></div>
+</div>
+<div class="hi"><h1>HI!</h1></div>
+</body>
+</html>
